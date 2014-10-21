@@ -103,7 +103,7 @@ var TiddlyFox = {
 			out.close();
 			return true;
 		} catch(ex) {
-			alert(ex);
+			alert("Problem saving\n" + filePath);
 			return false;
 		}
 	},
